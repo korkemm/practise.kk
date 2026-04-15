@@ -10,7 +10,6 @@ for i in range(1, len(s)):
         result += s[i - 1] + str(count)
         count = 1
 
-# add the last group
 result += s[-1] + str(count)
 
 print(result)
